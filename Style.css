@@ -1,0 +1,62 @@
+body {
+    background-color: red;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+    font-size: 25px;
+}
+li a {
+    display: block; 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+li img {
+    height: 30px;
+    width: 30px;
+}
+p{
+    color: antiquewhite;
+}
+.Blair_Profile {
+    width: 30%; /*resizing Blair's image width to scale down from the default original image*/
+    height: 3%; /*resizing Blair's image height to scale down from the default original image*/
+    background-color: black;
+    border-radius: 60%; /*affects the curveature of the image, the default is a square */
+}
+.Blair_Author_Description {
+    font-style: italic;
+}
+.index_banner{
+    width: 100%;
+}
+.BTHB{
+    text-align: center;
+}
+.Article_Banner{
+    width: 100%;
+}
+.LATN{
+    width: 100%;
+    height: 100%;
+}
+.RBDL{
+    width: 100%;
+    height: 100%;
+}
